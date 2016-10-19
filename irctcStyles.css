@@ -1,0 +1,40 @@
+h4{
+    background-color: skyblue;
+}
+h3{
+    text-align:justify;
+}
+input{
+    color: black;
+    background-color: white;
+    
+    }
+body
+{
+    background-color:cornsilk;
+    overflow: auto;
+}
+
+h5
+{
+  
+  color: brown;
+  font-weight: bold;
+  text-indent: 12px;  
+}
+label {
+  display: inline-block;
+  width: 140px;
+  text-align: right;
+}
+
+h6{
+    text-indent: 140px;
+    font-weight: bold;
+    color: brown;
+}
+form{
+    border:2px;
+   
+}
+#d1link {display:block;text-align:center}

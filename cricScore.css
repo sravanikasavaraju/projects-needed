@@ -1,0 +1,91 @@
+body
+{
+    background-color: aqua;
+}
+table.bottomBorder { 
+                      
+                      font-family:Arial;
+                      font-size: 12px;
+                      font-style: normal;
+                      font-weight: normal;
+                      text-transform: uppercase;
+                      letter-spacing: -1px;
+                      line-height: 1.7em;
+                      text-align:center;
+                      border-bottom: 1px solid yellowgreen;
+margin-left:auto;
+margin-right:auto;
+margin-top:0;
+margin-bottom:0;
+                      
+}
+
+.bottomBorder caption{
+
+text-shadow:1px 1px 1px #109873;
+background-color:#FFFFFF;
+}
+
+.bottomBorder thead th{
+
+    padding:6px 10px;
+    text-transform:uppercase;
+    color:#444;
+    font-weight:bold;
+    text-shadow:1px 1px 1px #fff;
+    border-bottom: 1px solid yellowgreen;
+}
+
+.bottomBorder tbody th{
+    color: #696969;
+    text-align:center;
+    padding:0px 10px;
+    border-right:1px solid #aaa;
+}
+.bottomBorder thead :nth-child(1),
+.bottomBorder tfoot :nth-child(1)
+{
+    background-color: #6FD5FF;
+}
+
+.bottomBorder thead :nth-child(2),
+.bottomBorder tfoot :nth-child(2)
+{
+    background-color: #7FD2FF;
+}
+.bottomBorder thead :nth-child(3),
+.bottomBorder tfoot :nth-child(3){
+    background-color: #45A8DF;
+}
+
+.bottomBorder thead :nth-child(4),
+.bottomBorder tfoot :nth-child(4){
+    background-color: #567FEF;
+}
+
+.bottomBorder thead :nth-child(5),
+.bottomBorder tfoot :nth-child(5){
+    background-color: #456FEF;
+}
+.bottomBorder thead :nth-child(6),
+.bottomBorder tfoot :nth-child(6){
+    background-color: #578FEF;
+}
+
+
+.bottomBorder tbody td:nth-child(odd){
+    background-color:#555;
+    color:#f0f0f0;
+    border-bottom:1px solid #444;
+    background:-webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0.39, rgb(85,85,85)),
+        color-stop(0.7, rgb(105,105,105))
+        );
+}
+
+
+    
+ 

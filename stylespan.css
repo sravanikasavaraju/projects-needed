@@ -1,0 +1,43 @@
+table .table1{
+
+    font-family:"verdana", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.4em;
+    font-style: normal;
+}
+
+.table1 caption{
+
+text-shadow:1px 1px 1px #109873;
+background-color:#FFFFFF;
+}
+
+
+.table1 thead th{
+    padding:15px;
+    text-shadow:1px 1px 1px #568F23;
+    border:2px solid #93CE37;
+    border-bottom:3px solid #9ED929;
+    background-color:#9DD929;
+    background:-webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0.02, rgb(123,192,67)),
+        color-stop(0.51, rgb(139,198,66)),
+        color-stop(0.87, rgb(158,217,41))
+        );
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+}
+
+.table1 tbody td{
+    padding:10px;
+    text-align:center;
+    background-color:#DEF3CA;
+    border: 2px solid #E7EFE0;
+    border-radius:2px;
+    color:#666;
+    text-shadow:1px 1px 1px #fff;
+}
